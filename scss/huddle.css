@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+body .main-header {
+  background-color: rgb(174, 232, 250);
+  text-align: center;
+  color: hsl(192deg, 100%, 9%);
+  background-image: url(../bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+  font-family: "Poppins", sans-serif, arial;
+}
+body .main-header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+}
+body .main-header-nav button {
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+  background-color: white;
+  border: 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  box-shadow: 0 0 6px hsl(208deg, 11%, 55%);
+}
+body .main-header-div-container {
+  padding: 2rem;
+  font-weight: 400;
+}
+body .main-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+body .main-header .main-header-svg .main-header-svg-2 {
+  display: none;
+}
+body .main-header .main-header-svg .main-header-svg-3 {
+  display: none;
+}
+body main {
+  padding: 3rem 2rem 0 2rem;
+  font-family: "open sans";
+}
+body main section {
+  text-align: center;
+  line-height: 1.5;
+  padding: 1rem;
+  margin: 0.1rem 0;
+  border-radius: 1rem;
+  margin: 3rem 0;
+  box-shadow: 0 0 6px hsl(208deg, 11%, 55%);
+  background-color: white;
+  margin: 1.4rem 0;
+}
+body main section .main-container-section-1 .main-container-section-svg {
+  width: 50%;
+  height: 50%;
+}
+body main section h2 {
+  color: hsl(192deg, 100%, 9%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+body main section p {
+  color: hsl(208deg, 11%, 55%);
+  font-weight: 400;
+}
+body main #lsection {
+  position: relative;
+  bottom: -5rem;
+}
+body main #lsection h2 {
+  margin: 1rem 0;
+}
+body main #lsection button {
+  margin: 1rem 0;
+}
+body .call-action-btn {
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  background-color: hsl(322deg, 100%, 66%);
+  outline: none;
+  border: 0;
+  font-weight: 700;
+  color: hsl(193deg, 100%, 96%);
+}
+
+footer {
+  background-color: hsl(192deg, 100%, 9%);
+  padding: 5rem 0.2rem 2rem 0.2rem;
+}
+footer .footer-main-div {
+  font-weight: 300;
+  color: hsl(193deg, 100%, 96%);
+  line-height: 2;
+}
+footer .footer-main-div .footer-main-div-container .footer-main-div-container-section .footer-main-div-1 {
+  display: flex;
+}
+footer .footer-main-div .footer-main-div-container .footer-main-div-container-section .footer-main-div-1 .footer-svg-container {
+  padding: 0.3rem 2rem 0 0;
+}
+footer .footer-main-div .footer-main-div-container .footer-main-div-container-section .footer-main-div-1 p {
+  margin: 0 0 1rem 0;
+}
+footer .footer-main-div .footer-main-div-container .footer-main-div-container-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer .footer-main-div .footer-main-div-container .footer-main-div-container-ul a {
+  text-decoration: none;
+  color: hsl(193deg, 100%, 96%);
+  font-size: 0.9rem;
+}
+footer .footer-main-div .footer-main-div-container .footer-main-div-container-last {
+  margin: 0 1rem 0 0;
+  text-align: center;
+}
+footer .footer-main-div-2 p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+footer .footer-main-div-2 ul {
+  padding: 0;
+}
+footer .footer-main-div-2 ul li {
+  list-style: none;
+  text-align: center;
+}
+footer .footer-main-div-2 ul li a {
+  text-decoration: none;
+}
+
+@media (min-width: 26rem) {
+  body .main-header {
+    background-image: url(../svg/mobile/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+  }
+  body .main-header .main-header-svg {
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  body .main-header .main-header-svg .main-header-svg-1 {
+    display: none;
+  }
+  body .main-header .main-header-svg .main-header-svg-2 {
+    display: block;
+    margin: auto;
+  }
+  body .main-header .main-header-svg .main-header-svg-3 {
+    display: none;
+  }
+  body footer {
+    padding: 10rem 2rem 2rem 2rem;
+  }
+}
+@media (min-width: 43rem) {
+  body .main-header {
+    background-image: url(../bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+  }
+  body .main-header .main-header-div {
+    display: flex;
+  }
+  body .main-header .main-header-div .main-header-div-container {
+    text-align: start;
+  }
+  body .main-header .main-header-div .main-header-div-container p {
+    margin-top: 0;
+  }
+  body .main-header .main-header-div .main-header-div-container button {
+    margin-top: 0;
+  }
+  body .main-container .main-container-section {
+    text-align: left;
+  }
+  body .main-container .main-container-section .main-container-section-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  body .main-container .main-container-section .main-container-section-1 .main-container-section-div {
+    margin-right: 8rem;
+  }
+  body .main-container .main-container-section .main-container-section-2 {
+    display: flex;
+  }
+  body .main-container .main-container-section .main-container-section-2 .main-container-section-div {
+    margin-left: 8rem;
+  }
+  body .main-container .main-container-section .main-container-section-3 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  body .main-container .main-container-section .main-container-section-3 .main-container-section-div {
+    margin-right: 8rem;
+  }
+  body .main-container #lsection {
+    max-width: 40rem;
+    margin: auto;
+  }
+  body footer {
+    padding: 10rem 0.2rem 2rem 0.2rem;
+  }
+  body footer .footer-main-div-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  body footer .footer-main-div-container .footer-main-div-container-section {
+    width: 30%;
+  }
+  body footer .footer-main-div-container nav .footer-main-div-container-ul {
+    margin: 0 0 0 2rem;
+  }
+}
+@media (min-width: 60rem) {
+  body .main-header .main-header-div .main-header-svg .main-header-svg-1 {
+    display: none;
+  }
+  body .main-header .main-header-div .main-header-svg .main-header-svg-2 {
+    display: none;
+  }
+  body .main-header .main-header-div .main-header-svg .main-header-svg-3 {
+    display: block;
+    margin: auto;
+  }
+}/*# sourceMappingURL=huddle.css.map */

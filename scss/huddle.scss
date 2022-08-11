@@ -1,0 +1,109 @@
+@import 'config';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    margin: 0;
+
+    .main-header{
+        background-color: rgb(174, 232, 250);
+        text-align: center;
+        color: $secondary-color;
+        background-image: url(../bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        font-family: $header-font;
+
+        &-nav{
+            display: flex;
+            justify-content: space-between;
+            align-items:center ;
+            padding:0.8rem;
+
+            button{
+                padding: 0.2rem 1rem;
+                border-radius: 2rem;
+                background-color: white;
+                border: 0;
+                font-size: 0.7rem;
+                font-weight: 700;
+                box-shadow: 0 0 6px $tetiary-color  ;
+            }
+        }
+        &-div-container{
+            padding: 2rem;
+            font-weight: 400;
+        }
+        h1{
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .main-header-svg{
+            .main-header-svg-2{
+                display: none;
+            }
+            .main-header-svg-3{
+                display: none;
+            }
+        }
+    }
+    main{
+        padding: 3rem 2rem 0 2rem;
+        font-family: $body-font;
+
+        section{
+            text-align: center;
+            line-height: 1.5;
+            padding: 1rem;
+            margin: 0.1rem 0;
+            border-radius: 1rem;
+            margin: 3rem 0;
+            box-shadow: 0 0 6px $tetiary-color  ;
+            background-color: white;
+            margin: 1.4rem 0;
+
+            .main-container-section-1{
+                .main-container-section-svg{
+                    width: 50%;
+                    height: 50%;
+                    // margin: auto;
+                }
+            }
+            h2{
+                color:$secondary-color ;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+            p{
+                color: $tetiary-color;
+                font-weight: 400;
+            }
+        }
+        #lsection{
+            position: relative;
+            bottom: -5rem;
+            h2{
+                margin: 1rem 0;
+            }
+            button{
+                margin:1rem 0 ;
+            }
+        } 
+    }
+    .call-action-btn{
+        padding: 0.5rem 3rem;
+        border-radius: 2rem;
+        background-color: $background-color;
+        outline: none;
+        border: 0;
+        font-weight: 700;
+        color: $primary-color;
+    }
+    
+}
+@import 'footer';
+@import 'media';
